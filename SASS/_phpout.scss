@@ -1,0 +1,13 @@
+@function phpOut($var){
+	
+	$tmp: null;
+
+	@if($sass){
+		$tmp : nth($var, 1);
+		@return $tmp;
+	}
+	@else{
+		 $tmp : nth($var, 2);
+		 @return #{"<?php echo #{$tmp}; ?>"}; // This could output anything really just use #{$tmp} to output the var name
+	}
+}
