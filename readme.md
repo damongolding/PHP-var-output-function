@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This function switchs which item in a SASS list variable is outputted with a global $var.
+This function switchs which item is used and outputted in a SASS list variable.
 
 This could be used for many things but I have used it to either output a SASS var or echo a PHP var
 
