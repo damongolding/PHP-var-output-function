@@ -23,7 +23,7 @@ This could be used for many things but I have used it to either output a SASS va
 		background-color: #ffffff;
 	}
 
-### CSS output 2 ($SASS:false)
+### CSS output 2 ($SASS: false)
 	.Foo{
 		background-color: <?php echo $mainColour; ?>;
 	}
